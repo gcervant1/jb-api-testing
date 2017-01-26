@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BME API">
+  <testsuite name="login" id="74bc1756-2741-44de-a9d8-e8c500d736fa" tests="2" time="371">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="listCreate" id="20fafdfe-3f7b-42b8-9af6-b30df7c033ce" tests="2" time="139">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="listAddContacts" id="45d7a725-a114-407b-8616-74f4a5760776" tests="3" time="284">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+    <testcase name="Response is more than 0 when contacts are added">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="listUpdate" id="0a3c7672-105a-450c-8921-373570e5d696" tests="3" time="165">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+    <testcase name="Response is more than 0 when contacts are added">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="listGet" id="500e5884-e8b5-45b3-8fb0-d61ef985ea36" tests="2" time="255">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="listUpdate" id="4fbae9e4-69b4-4bab-92fd-93a0ba0608c5" tests="3" time="204">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+    <testcase name="Response is more than 0 when contacts are added">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="listGetContacts" id="f16ab5ef-a19c-45df-8ec6-83784cfee74c" tests="2" time="180">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="listSearchContacts" id="9400be46-08b4-42fc-8f65-6dbf2ae935ea" tests="2" time="227">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="segmentCreate" id="22b8b406-f271-420a-aab3-963f2372a1f2" tests="2" time="129">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="segmentGet" id="fe278db7-14ff-4d0b-bcce-59e76917bb56" tests="0" time="129"/>
+  <testsuite name="segmentGetDetail" id="748c3aa8-fa62-4419-81f4-dc464c75e3ab" tests="0" time="124"/>
+  <testsuite name="emailCreate" id="b8f1e08c-7bdb-4671-a4e5-bdcd8bb1e8e6" tests="2" time="131">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="emailGet" id="c3ff3522-4d13-43e3-99b1-d68cf4734537" tests="2" time="178">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="emailGetDetail" id="92948d08-5c8d-4b2a-aa03-34f0adcf3caf" tests="2" time="203">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="emailCopy" id="5471584d-b9a5-4127-83ea-7445aa1b47cc" tests="2" time="173">
+    <testcase name="Status code is 200"/>
+    <testcase name="Response time is less than 700ms"/>
+  </testsuite>
+  <testsuite name="emailPreview" id="7a0961bf-ae0a-4d81-b780-4251102f3bb7" tests="0" time="196"/>
+  <testsuite name="emailSendNow" id="743620a8-6eaa-4601-8ade-38718d0e0904" tests="0" time="129"/>
+  <testsuite name="confirmEmailAdd" id="de83bbc4-3c2b-4a75-9882-6122a7c9f418" tests="0" time="145"/>
+  <testsuite name="autoresponderCreate" id="30b93eb1-b676-4432-96a8-3197308050e6" tests="0" time="128"/>
+  <testsuite name="autoresponderGetList" id="0508f0d0-d282-4c05-8aee-b2d4ebb51379" tests="0" time="210"/>
+  <testsuite name="autoresponderDetailCreate" id="ebacbb25-415d-4962-9cb5-caa42a73a015" tests="0" time="132"/>
+</testsuites>
