@@ -1,6 +1,7 @@
 
 var newman = require('newman')
 
+
 // Do something
 newman.run({
     collection: require(process.cwd().toString() + '/ApiFramework/Collections/CollectionTest.json'),
